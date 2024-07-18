@@ -1,0 +1,44 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+
+.main-div{
+    height: 100vh;
+    width: 100%;
+    background: black;
+    display: flex;
+}
+
+.form{
+    width: 70%;
+    height: 500px;
+    display: flex;
+}
+.img{
+    width: 250px;
+    height: 500px;
+    display: flex;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  gap: 25px; /* Adjust as needed */
+}
+
+.details h3 {
+  margin: 0; /* Remove default margin */
+}
+
+.details input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 200px; /* Adjust width as needed */
+}
+
+.btn button{
+    width: 100px;
+    height: 30px;
+}
